@@ -1,0 +1,231 @@
+ .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .one {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 2 / 5;
+  }
+
+  .four {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 4;
+  } 
+
+  /* button{
+    background-color: transparent;
+    padding: 2%;
+    border-radius: 2em;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 0 2%;
+    width: 23%;
+    &.playstore
+    {
+        background-color: $orange;
+        border: none;
+    }
+    &.appstore{
+        border: 1px solid white; 
+    }
+}
+
+p{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 5em;
+}
+
+@mixin tailles_header_and_footer{
+    height: 3.8%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    @include tailles_header_and_footer();
+    nav{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        &[href="home"]{
+            color: $orange;
+        }
+    }
+    img{
+        padding: 1%;
+    }
+}
+
+footer{
+    @include tailles_header_and_footer();
+    align-items: center;
+    img{
+        padding: 1%;
+    } 
+      .icons{
+        display: flex;
+        img{
+            margin: 0 10%;
+        }
+    }
+    small{
+        color: $gray;
+        font-weight: bold;
+    }
+}
+
+.first{
+    height: 20%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("food.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    p{
+        font-size: 2em;
+    }
+    .text{
+        font-weight: normal;
+    }
+    *{
+        margin:1.5%;
+    }
+    .buttons{
+        width: 50%;
+    }
+}
+
+.second{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    position: relative;
+   
+    img{
+        top: -35%;
+        position: absolute;
+    }
+}
+
+.third{
+    height: 26.2%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    h2{
+        color: rgb(78, 74, 74);
+        font-size: 3.3em;
+    }
+    .div1{
+        display: flex;
+        margin-top: -5%;
+    }
+    .div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        *{
+            margin: 2% 0;
+        }
+        h2{
+            color: $blue;
+        }
+    }
+    img{
+        width: 50%;
+    }
+    p{
+        font-size: 2em;
+        font-weight: normal;
+        color: $gray;
+    }
+    .p1{
+        font-weight: bold;
+        color: $orange;
+        font-size: 2em;
+    }
+    hr{
+        padding: 0.1em;
+        position: absolute;
+        background-color: rgba(204, 198, 198, 0.5);
+        width: 70%;
+        top: -10%;
+        border: none;      
+        margin-left: 15%;  
+    }
+}
+
+.fourth{
+    height: 26.2%;
+    width: 80%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+        h2{
+        color: black;
+        font-size: 3.3em;
+    }
+    p{
+        font-size: 2em;
+        font-weight: normal;
+        color: $gray;
+    }
+    .p1{
+        font-weight: bold;
+        color: $orange;
+        font-size: 2em;
+    }
+    .div1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        text-align: start;
+        *{
+            margin: 2% 0 2% 10%;
+        }
+        h2{
+            color: $blue;
+        }
+    }
+    img{
+        height: 100vh;
+    }
+} */
+

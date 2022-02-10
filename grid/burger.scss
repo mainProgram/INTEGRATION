@@ -1,0 +1,65 @@
+.sidebar {
+    background: #333;
+    color: white;
+    max-width: 200px;
+  
+    transition: transform 0.5s;
+  
+    &__trigger {
+      display: none;
+      &:checked {
+        & + label > .sidebar__button-open {
+          display: none;
+        }
+      }
+      &:not(:checked) {
+        & + label > .sidebar__button-close {
+          display: none;
+        }
+  
+        & ~ .sidebar {
+          transform: translateX(-100%);
+        }
+      }
+    }
+    
+    &__button {
+      width: 300px;
+      border: 1px solid #ddf;
+      padding: 1rem;
+      border-radius: 0.25rem;
+    }
+  }
+  
+
+  nav{
+    background-color: rgb(221, 193, 193);
+    width: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+    a{
+      color: black;
+
+      text-decoration: none;
+    }
+  }
+  
+  
+  .burger{
+    display: none;
+    &:checked {
+      & + label > nav {
+        display: none;
+      }
+    }
+    &:not(:checked) {
+      & + label > nav {
+        display: flex;
+      }
+      & ~ nav {
+        transform: translateX(-100%);
+      }
+    }
+  }
+  

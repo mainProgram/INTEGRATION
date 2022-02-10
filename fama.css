@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  color: white;
+  height: 380vh; }
+
+button {
+  background-color: transparent;
+  padding: 2%;
+  border-radius: 2em;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin: 0 2%;
+  width: 23%; }
+  button.playstore {
+    background-color: #fa4a0c;
+    border: none; }
+  button.appstore {
+    border: 1px solid white; }
+
+p {
+  font-weight: bold; }
+
+h1 {
+  font-size: 5em; }
+
+header {
+  height: 3.8%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between; }
+  header nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  header a {
+    text-decoration: none;
+    color: black; }
+    header a[href="home"] {
+      color: #fa4a0c; }
+  header img {
+    padding: 1%; }
+
+footer {
+  height: 3.8%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  footer img {
+    padding: 1%; }
+  footer .icons {
+    display: flex; }
+    footer .icons img {
+      margin: 0 10%; }
+  footer small {
+    color: #8a8a8a;
+    font-weight: bold; }
+
+.first {
+  height: 20%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("food.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  .first p {
+    font-size: 2em; }
+  .first .text {
+    font-weight: normal; }
+  .first * {
+    margin: 1.5%; }
+  .first .buttons {
+    width: 50%; }
+
+.second {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  position: relative; }
+  .second img {
+    top: -45%;
+    position: absolute; }
+
+.third {
+  height: 26.2%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  position: relative; }
+  .third h2 {
+    color: #4e4a4a;
+    font-size: 3.3em; }
+  .third .div1 {
+    display: flex;
+    margin-top: -5%; }
+  .third .div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start; }
+    .third .div2 * {
+      margin: 2% 0; }
+    .third .div2 h2 {
+      color: #252b42; }
+  .third img {
+    width: 50%; }
+  .third p {
+    font-size: 2em;
+    font-weight: normal;
+    color: #8a8a8a; }
+  .third .p1 {
+    font-weight: bold;
+    color: #fa4a0c;
+    font-size: 2em; }
+  .third hr {
+    padding: 0.1em;
+    position: absolute;
+    background-color: rgba(204, 198, 198, 0.5);
+    width: 70%;
+    top: -10%;
+    border: none;
+    margin-left: 15%; }
+
+.fourth {
+  height: 26.2%;
+  width: 80%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-around; }
+  .fourth h2 {
+    color: black;
+    font-size: 3.3em; }
+  .fourth p {
+    font-size: 2em;
+    font-weight: normal;
+    color: #8a8a8a; }
+  .fourth .p1 {
+    font-weight: bold;
+    color: #fa4a0c;
+    font-size: 2em; }
+  .fourth .div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    text-align: start; }
+    .fourth .div1 * {
+      margin: 2% 0 2% 10%; }
+    .fourth .div1 h2 {
+      color: #252b42; }
+  .fourth img {
+    height: 100vh; }
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 3em; }
+
+  button {
+    width: 35%; }
+
+  .second img {
+    margin-top: -10%;
+    width: 80%; }
+
+  .first p {
+    font-size: 1.5em; }
+
+  .first * {
+    margin: 2.5%; }
+
+  .third h2, .fourth h2 {
+    font-size: 2.5em; }
+
+  footer {
+    margin: 0;
+    width: 100%; }
+    footer img {
+      padding: 1%; }
+    footer .icons img {
+      margin: 0 5%; } }
+@media (max-width: 750px) {
+  nav {
+    background-color: red; } }
+
+/*# sourceMappingURL=fama.css.map */

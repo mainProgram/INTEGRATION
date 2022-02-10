@@ -1,0 +1,472 @@
+$orange : #ff7c18;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h4{
+    font-size: 3rem;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+h6{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+
+.container{
+    height: 380vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    flex: 1;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    nav{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a{
+            text-decoration: none;
+            font-size: 1rem;
+            color: black;
+            font-weight: bold;
+        }
+    }
+}
+
+.first{
+    flex: 9;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(food.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .container{
+        height: 70%;
+        width: 50%;
+        text-align: center;
+        padding: 2%;
+        *{
+            padding: 3%;
+        }
+    }
+    button{
+        background-color: transparent;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+        margin: 0 2%;
+        width: 20%;
+    }
+    .playstore
+    {
+        background-color: $orange;
+        border: none;
+    }
+    .appstore{
+        border: 1px solid white; 
+    }
+}
+
+.second{
+    flex: 9;
+    display: flex;
+    justify-content: center;
+    img{
+        margin-top: -10%;
+    }
+}
+
+.third{
+    flex: 9;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-size: 3.5rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    hr{
+        width: 60%;
+        margin-bottom: 3%;
+        padding: 0.1%;
+        background-color: rgba(143, 138, 138, 0.5);
+        border: none;
+    }
+    .div1{
+        margin-top: 2%;
+        display: flex;       
+        width: 80%;
+        margin-left: 10%;
+    }
+    img{
+        flex: 1;
+    }
+    .div2{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        *{
+            margin: 3%;
+        }
+    }
+    p{
+        color: gray;
+    }
+    .p1{
+        font-weight: bold;
+        color: $orange;
+    }
+}
+
+.fourth{
+    flex: 9;
+    color: black;
+    .div1{
+        margin-top: 2%;
+        display: flex;       
+        width: 80%;
+        margin-left: 10%;
+    }
+    img{
+        flex: 1;
+    }
+    .div2{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        *{
+            margin: 3%;
+        }
+    }
+    p{
+        color: gray;
+    }
+    .p1{
+        font-weight: bold;
+        color: $orange;
+    }
+    h2{
+        font-size: 3.5rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+}
+
+footer{
+    flex: 1;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    .icons{
+       display: flex;
+       justify-content: space-around;
+        width: 10%;
+    }
+}
+
+// header{
+//     background-color: aqua;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 2%;
+//     img{
+//         width: 12%;
+//     }
+//     nav{
+//         width: 50%;
+//         display: flex;
+//         justify-content: space-around;
+//         background-color: #ff7c18;
+//         a{
+//             text-decoration: none;
+//             color: black;
+//             font-weight: bold;
+//             // font-size: 20px;
+//         }
+//     }
+// }
+
+// .first{
+//     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/INTEGRATION/food.png");
+//     height: 80vh;
+//     background-size: cover;
+//     background-position: center center;
+//     display: flex;
+//     flex-direction: column;
+//     // justify-content: center;
+//     padding: 5%;
+//     align-items: center;
+//     color: white;
+//     h1{
+//         // font-size: 4vw;
+//         width: 60%;
+//         background-color: #ff7c18;
+//         text-align: center;
+//     }
+//     .buttons{
+//         width: 20%;
+//         display: flex;
+//         justify-content: space-around;
+//         button{
+//             width: 40%;
+//             border: 1px solid white;
+//             padding: 4%;
+//             color: white;
+//             // font-size: 1vw;
+//             background-color: transparent;
+//         }
+//     }
+// }
+
+
+
+
+
+// $orange : #fa4a0c;
+// $blue: #252b42;
+// $gray: #8a8a8a;
+
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+// *{  
+//     padding: 0;
+//     margin: 0;
+//     box-sizing: border-box;
+// }
+
+// body{
+//     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+//     color: white;
+//     height: 380vh;
+// }
+
+// button{
+//     background-color: transparent;
+//     padding: 2%;
+//     border-radius: 2rem;
+//     color: white;
+//     font-weight: bold;
+//     font-size: 1.4rem;
+//     margin: 0 2%;
+//     width: 23%;
+//     &.playstore
+//     {
+//         background-color: $orange;
+//         border: none;
+//     }
+//     &.appstore{
+//         border: 1px solid white; 
+//     }
+// }
+
+// p{
+//     font-weight: bold;
+// }
+
+// h1{
+//     font-size: 5rem;
+// }
+
+// @mixin tailles_header_and_footer{
+//     height: 3.8%;
+//     width: 80%;
+//     margin: auto;
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// header{
+//     @include tailles_header_and_footer();
+//     nav{
+//         width: 50%;
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//     }
+//     a{
+//         text-decoration: none;
+//         color: black;
+//         &[href="home"]{
+//             color: $orange;
+//         }
+//     }
+//     img{
+//         padding: 1%;
+//     }
+// }
+
+// footer{
+//     @include tailles_header_and_footer();
+//     align-items: center;
+//     img{
+//         padding: 1%;
+//     }
+//     .icons{
+//         display: flex;
+//         img{
+//             margin: 0 10%;
+//         }
+//     }
+//     small{
+//         color: $gray;
+//         font-weight: bold;
+//     }
+// }
+
+// .first{
+//     height: 23.1%;
+//     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("food.png");
+//     background-size: cover;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     text-align: center;
+//     p{
+//         font-size: 2rem;
+//     }
+//     .text{
+//         font-weight: normal;
+//     }
+//     *{
+//         margin:2.3%;
+//     }
+//     .buttons{
+//         width: 50%;
+//     }
+// }
+
+// .second{
+//     height: 23.1%;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     width: 80%;
+//     margin: auto;
+//     hr{
+//         padding: 0.1rem;
+//         background-color: rgba(204, 198, 198, 0.5);
+//         width: 70%;
+//         border: none;
+//         margin-top: 10%;
+//     }
+//     img{
+//         margin-top: -20%;
+//     }
+// }
+
+// .third{
+//     height: 23.1%;
+//     width: 80%;
+//     margin: auto;
+//     text-align: center;
+//     h2{
+//         color: rgb(78, 74, 74);
+//         font-size: 3.3rem;
+//     }
+//     .div1{
+//         display: flex;
+//         margin-top: -5%;
+//     }
+//     .div2{
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         text-align: start;
+//         *{
+//             margin: 2% 0;
+//         }
+//         h2{
+//             color: $blue;
+//         }
+//     }
+//     img{
+//         width: 50%;
+//     }
+//     p{
+//         font-size: 2rem;
+//         font-weight: normal;
+//         color: $gray;
+//     }
+//     .p1{
+//         font-weight: bold;
+//         color: $orange;
+//         font-size: 2rem;
+//     }
+// }
+
+// .fourth{
+//     height: 23.1%;
+//     width: 80%;
+//     margin: auto;
+//     display: flex;
+//     justify-content: space-around;
+//         h2{
+//         color: black;
+//         font-size: 3.3rem;
+//     }
+//     p{
+//         font-size: 2rem;
+//         font-weight: normal;
+//         color: $gray;
+//     }
+//     .p1{
+//         font-weight: bold;
+//         color: $orange;
+//         font-size: 2rem;
+//     }
+//     .div1{
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         flex: 1;
+//         text-align: start;
+//         *{
+//             margin: 2% 0 2% 10%;
+//         }
+//         h2{
+//             color: $blue;
+//         }
+//     }
+//     img{
+//         height: 100vh;
+//     }
+// }

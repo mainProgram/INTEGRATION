@@ -1,0 +1,68 @@
+.sidebar {
+  background: #333;
+  color: white;
+  max-width: 200px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.sidebar__trigger {
+  display: none;
+}
+
+.sidebar__trigger:checked + label > .sidebar__button-open {
+  display: none;
+}
+
+.sidebar__trigger:not(:checked) + label > .sidebar__button-close {
+  display: none;
+}
+
+.sidebar__trigger:not(:checked) ~ .sidebar {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.sidebar__button {
+  width: 300px;
+  border: 1px solid #ddf;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+nav {
+  background-color: #ddc1c1;
+  width: 200px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+}
+
+.burger:checked + label > nav {
+  display: none;
+}
+
+.burger:not(:checked) + label > nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.burger:not(:checked) ~ nav {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+/*# sourceMappingURL=burger.css.map */

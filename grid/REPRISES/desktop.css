@@ -1,0 +1,143 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+content p {
+  border: 1px solid;
+  opacity: 0.2;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+header img {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  padding: 10%;
+}
+
+header nav {
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 5;
+  grid-column: 8/13;
+}
+
+header nav ul {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+}
+
+header nav ul a:hover, header nav ul a:active {
+  color: #fa4a0c;
+  cursor: pointer;
+}
+
+.first {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/food.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/food.png);
+  height: 90vh;
+  background-size: cover;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 10% 30% 15% 20%;
+      grid-template-rows: 10% 30% 15% 20%;
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+}
+
+.first * {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 8;
+  grid-column: 3/11;
+}
+
+.first p, .first h4 {
+  font-size: 3rem;
+}
+
+.first h4 {
+  font-weight: normal;
+}
+
+.first h1 {
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+.first button {
+  background-color: transparent;
+  padding: 2%;
+  border-radius: 2em;
+  color: white;
+  font-weight: bold;
+  font-size: 3.3em;
+  margin: 0 2%;
+  width: 26%;
+}
+
+.first button.playstore, .first button.appstore {
+  border: 1px solid white;
+}
+
+.first button.playstore:hover, .first button.appstore:hover {
+  background-color: #fa4a0c;
+  border: none;
+}
+
+.deux_tels {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  width: 50%;
+}
+/*# sourceMappingURL=desktop.css.map */
